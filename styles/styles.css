@@ -77,7 +77,7 @@ aside h2 {
 
 header, .grid, footer {
   border-top: 1px solid var(--border-color);
-  max-width: var(--max-width);
+  max-width: 840px;
   margin: 0, auto;
 }
 /* Class Selectors */
