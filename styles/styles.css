@@ -77,7 +77,6 @@ aside h2 {
 
 header, .grid, footer {
   border-top: 1px solid var(--border-color);
-  text-align: center;
   max-width: var(--max-width);
   margin: 0, auto;
 }
