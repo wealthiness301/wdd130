@@ -9,6 +9,13 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+nav a{
+    margin: 8px;
 }
 * {
     margin: 0;
@@ -23,6 +30,9 @@ header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
+header nav {
+    display: flex;
+}
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -31,7 +41,7 @@ nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
-.socialmedia a {
+.socialmedia a { 
     text-decoration: none;
 }
 .hero {
@@ -66,4 +76,64 @@ article{
     float: right;
     width: 125px;
     margin: 4px;
+}
+.history{
+    max-width: 100%;
+}
+#Historyimage {
+    display: block;
+    /*margin: 20px auto;*/
+    max-width: 100%;
+    width: 125px;
+    height: auto;
+}
+.history h2{
+    text-align: center;
+    font-size: 2rem;
+
+}
+.history-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.left-text,
+.right-text{
+    width: 30%;
+    text-align: justify;
+}
+.centre-image img{
+    width: 150px;
+    height: auto;
+    display: block;
+}
+
+figure img{
+    width: 100px;
+    height: auto;
+}
+.figures{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.Adventure{
+    text-align: center;
+}
+.socialmedia img{
+    width: 28px;
+    height: auto;
+
+}
+footer nav{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px black;
 }
