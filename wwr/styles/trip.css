@@ -1,0 +1,79 @@
+/* rafting.css additions for trips.html */
+
+.cta {
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #0077cc;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.trip-descriptions article {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trip-descriptions img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.trip-table {
+    padding: 2rem;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: #0077cc;
+    color: white;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #90cdf4;
+    text-decoration: underline;
+    display: block;
+    margin-top: 0.5rem;
+}
